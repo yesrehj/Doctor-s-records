@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctor's Records</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+    }
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+    section.hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-ec7b31a217aa') center/cover no-repeat;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    section.features {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background: #f4f4f4;
+    }
+    .feature {
+      max-width: 300px;
+      text-align: center;
+    }
+    .feature i {
+      font-size: 2rem;
+      color: #2a9d8f;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #264653;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Doctor's Records</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#login">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Secure & Smart Medical Records System</h2>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <i class="fas fa-notes-medical"></i>
+      <h3>Patient Records</h3>
+      <p>Access and update patient data anytime, anywhere.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-user-md"></i>
+      <h3>For Doctors</h3>
+      <p>Easy-to-use portal for doctors and clinics.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Secure</h3>
+      <p>HIPAA-compliant system for data protection.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Doctor's Records. All rights reserved.</p>
+  </footer>
+</body>
+</html>
